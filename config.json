@@ -1,7 +1,6 @@
 {
   "api_credentials": {
-    "api_key": "33c949a2-8f15-482a-bf09-ba226eac4698",
-    "private_key_path": "/path/to/your/private_key.pem"
+    "api_key": "33c949a2-8f15-482a-bf09-ba226eac4698"
   },
   "platform_settings": {
     "fee_rate": 0.05,

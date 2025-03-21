@@ -1,2 +1,33 @@
 2025-03-20 21:37:27,348 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
 2025-03-20 21:39:20,740 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:11:56,247 - kalshi_analyzer - INFO - Initialized Kalshi Market API client with base URL: https://trading-api.kalshi.com
+2025-03-20 22:11:56,247 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:11:56,302 - kalshi_analyzer - ERROR - API request failed: HTTPSConnectionPool(host='trading-api.kalshi.com', port=443): Max retries exceeded with url: /v1/markets/KXSPOTIFYGLOBALD-25MAR20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000172A320AD50>: Failed to resolve 'trading-api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-20 22:11:56,303 - kalshi_analyzer - ERROR - Error retrieving market data: Failed to retrieve market data: HTTPSConnectionPool(host='trading-api.kalshi.com', port=443): Max retries exceeded with url: /v1/markets/KXSPOTIFYGLOBALD-25MAR20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000172A320AD50>: Failed to resolve 'trading-api.kalshi.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-20 22:16:36,567 - kalshi_analyzer - INFO - Initialized Kalshi Market API client with base URL: https://demo-api.kalshi.co
+2025-03-20 22:16:36,567 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:17:04,361 - kalshi_analyzer - INFO - Initialized Kalshi Market API client with base URL: https://demo-api.kalshi.co
+2025-03-20 22:17:04,362 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:17:04,671 - kalshi_analyzer - ERROR - API request failed: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/KXSPOTIFYGLOBALD-25MAR20
+2025-03-20 22:17:04,672 - kalshi_analyzer - ERROR - Response: {"error":{"code":"not_found","message":"not found","service":"query-exchange"}}
+2025-03-20 22:17:04,673 - kalshi_analyzer - ERROR - Error retrieving market data: Failed to retrieve market data: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/KXSPOTIFYGLOBALD-25MAR20
+2025-03-20 22:17:43,629 - kalshi_analyzer - INFO - Initialized Kalshi Market API client with base URL: https://demo-api.kalshi.co
+2025-03-20 22:17:43,631 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:17:43,792 - kalshi_analyzer - ERROR - API request failed: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/FOMC-24Q1
+2025-03-20 22:17:43,794 - kalshi_analyzer - ERROR - Response: {"error":{"code":"not_found","message":"not found","service":"query-exchange"}}
+2025-03-20 22:17:43,795 - kalshi_analyzer - ERROR - Error retrieving market data: Failed to retrieve market data: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/FOMC-24Q1
+2025-03-20 22:21:56,646 - kalshi_analyzer - INFO - Initialized Kalshi Market API client with base URL: https://demo-api.kalshi.co
+2025-03-20 22:21:56,647 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:21:56,965 - kalshi_analyzer - ERROR - API request failed: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/KXRTSNOWWHITE
+2025-03-20 22:21:56,966 - kalshi_analyzer - ERROR - Response: {"error":{"code":"not_found","message":"not found","service":"query-exchange"}}
+2025-03-20 22:21:56,966 - kalshi_analyzer - ERROR - Error retrieving market data: Failed to retrieve market data: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/KXRTSNOWWHITE
+2025-03-20 22:22:13,902 - kalshi_analyzer - INFO - Initialized Kalshi Market API client with base URL: https://demo-api.kalshi.co
+2025-03-20 22:22:13,902 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:22:14,175 - kalshi_analyzer - ERROR - API request failed: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/%20KXRTSNOWWHITE
+2025-03-20 22:22:14,176 - kalshi_analyzer - ERROR - Response: {"error":{"code":"not_found","message":"not found","service":"query-exchange"}}
+2025-03-20 22:22:14,176 - kalshi_analyzer - ERROR - Error retrieving market data: Failed to retrieve market data: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/%20KXRTSNOWWHITE
+2025-03-20 22:22:50,594 - kalshi_analyzer - INFO - Initialized Kalshi Market API client with base URL: https://demo-api.kalshi.co
+2025-03-20 22:22:50,594 - kalshi_analyzer - INFO - Initialized SimpleKalshiAnalyzer with fee rate: 0.05
+2025-03-20 22:22:50,838 - kalshi_analyzer - ERROR - API request failed: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/KXRTSNOWWHITE
+2025-03-20 22:22:50,839 - kalshi_analyzer - ERROR - Response: {"error":{"code":"not_found","message":"not found","service":"query-exchange"}}
+2025-03-20 22:22:50,839 - kalshi_analyzer - ERROR - Error retrieving market data: Failed to retrieve market data: 404 Client Error: Not Found for url: https://demo-api.kalshi.co/trade-api/v2/markets/KXRTSNOWWHITE
