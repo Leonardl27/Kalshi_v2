@@ -1,0 +1,21 @@
+{
+  "api_credentials": {
+    "api_key": "33c949a2-8f15-482a-bf09-ba226eac4698",
+    "private_key_path": "/path/to/your/private_key.pem"
+  },
+  "platform_settings": {
+    "fee_rate": 0.05,
+    "base_url": "https://demo-api.kalshi.co"
+  },
+  "analysis_defaults": {
+    "tax_rate": 0.25,
+    "interest_rate": 0.05,
+    "risk_aversion": 1.0
+  },
+  "application_settings": {
+    "log_level": "INFO",
+    "log_file": "kalshi_analyzer.log",
+    "save_visualizations": true,
+    "visualization_path": "./visualizations"
+  }
+}
